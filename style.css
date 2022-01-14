@@ -1,0 +1,162 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  font-family: "Times New Roman", Times, serif;
+}
+.topnav {
+  background-color: rgb(27, 26, 26);
+  overflow: hidden;
+  width: 100vw;
+}
+.nav {
+  margin-left: 4%;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 7px 29px;
+  color: #f8f7f447;
+}
+#layout {
+  font-size: larger;
+}
+.container1 {
+  width: 892px;
+
+  margin-top: 3%;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.container1 h1 {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 150%;
+  color: #3d3838;
+  line-height: 1.6;
+}
+.container1 p {
+  line-height: 1.6;
+}
+.first {
+  background-color: rgb(196, 192, 192);
+  display: flex;
+  justify-content: center;
+
+  margin-right: 6%;
+  margin-top: 2%;
+  margin-left: 6%;
+}
+.button {
+  border: none;
+  border-radius: 1%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2px;
+  background-color: rgb(61, 61, 253);
+  padding: 6px 4px;
+  line-height: 1.6;
+}
+hr {
+  margin-top: 2%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.down {
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-right: 5%;
+}
+.head2 {
+  margin-left: -2%;
+}
+.head2 h3 {
+  margin-left: 8%;
+  margin-bottom: 1%;
+  margin-top: 4%;
+  font-weight: 100;
+  font-size: 135%;
+}
+.box {
+  width: 250px;
+  margin-left: 2%;
+  margin-block: 7px;
+  text-align: center;
+}
+.box p h2 {
+  letter-spacing: 1.6;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4%;
+  width: 91%;
+}
+.button1 {
+  border: none;
+
+  color: white;
+  text-align: center;
+  border-radius: 17%;
+  display: inline-block;
+  margin-top: 8px;
+  background-color: rgb(61, 61, 253);
+  padding: 3%;
+  line-height: 1.6;
+}
+.button2 {
+  border: none;
+
+  text-align: center;
+  border-radius: 14%;
+  display: inline-block;
+  margin-top: 8px;
+
+  padding: 3%;
+  line-height: 1.6;
+}
+.side {
+  width: 260px;
+  border: solid rgb(226, 222, 222);
+  margin-left: 2%;
+  height: 290px;
+}
+.footer {
+  font-size: 13px;
+  margin: 9px;
+  margin-left: 6%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 462px) {
+  .topnav a {
+    display: flex;
+    padding-block: 1%;
+    width: 100%;
+    justify-items: left;
+  }
+  .nav {
+    justify-content: left;
+  }
+}
+@media screen and (max-width: 605px) {
+  .container3 {
+    justify-content: center;
+  }
+  .head2 h3 {
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container1 {
+    margin-left: 4%;
+  }
+}
